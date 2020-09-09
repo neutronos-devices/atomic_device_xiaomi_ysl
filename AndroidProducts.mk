@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018 The wrathOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ysl.mk
+    $(LOCAL_DIR)/wrath_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ysl-user \
-    lineage_ysl-userdebug \
-    lineage_ysl-eng
+    wrath_ysl-user \
+    wrath_ysl-userdebug \
+    wrath_ysl-eng

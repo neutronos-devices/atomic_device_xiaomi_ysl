@@ -423,3 +423,12 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+    
+# via  and gcam
+PRODUCT_PACKAGES += \
+    via \
+    Gcam
+    
+# Device specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
