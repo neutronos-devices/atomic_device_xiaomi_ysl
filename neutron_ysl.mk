@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The wrathOS Project
+# Copyright (C) 2017 The neutronOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,12 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common wrathOS stuff.
-$(call inherit-product, vendor/wrath/config/common_full_phone.mk)
+# Inherit some common neutronOS stuff.
+$(call inherit-product, vendor/neutron/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := wrath_ysl
+PRODUCT_NAME := neutron_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
@@ -38,7 +38,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.user=Dhakrey
+    ro.build.user=Hrithik Dhakrey
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

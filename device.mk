@@ -426,7 +426,6 @@ PRODUCT_BOOT_JARS += \
     
 # via  and gcam
 PRODUCT_PACKAGES += \
-    via \
     Gcam
     
 # Device specific settings
